@@ -26,12 +26,19 @@ travel_log = [
 # to be added to the travel_log.
 
 def add_new_country(country, visits, list_of_cities):
-
+    # my solution:
     travel_log.append({
         'country': country,
         'visits': visits,
         'cities': list_of_cities,
      })
+
+    # Course Solution
+    # new_country = {}
+    # new_country["country"] = country
+    # new_country["visits"] = visits
+    # new_country["cities"] = list_of_cities
+    # travel_log.append(new_country)
 
 # Do not change the code below 👇
 add_new_country(country, visits, list_of_cities)
